@@ -1,0 +1,28 @@
+{
+  "name": "web.api",
+  "version": "1.0.0",
+  "description": "Parody Police Web API Service",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chuksy Olisa",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-text-analytics": "^5.0.1",
+    "@azure/cognitiveservices-websearch": "^3.0.1",
+    "@azure/ms-rest-azure-js": "^2.0.1",
+    "@types/cheerio": "^0.22.22",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.11.8"
+  }
+}

@@ -1,0 +1,1 @@
+export { getTweet } from './TweetsController';
